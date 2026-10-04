@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhytoSense | Smart Farming, Simplified</title>
+<meta name="description" content="PhytoSense builds low-cost soil and crop sensors with voice guidance for India's smallholder farmers. No smartphone needed, solar powered, works in your language.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M6 26C6 14 14 4 26 4C26 16 18 26 6 26Z" fill="#5F9463"/>
+        <path d="M8.5 23.5C12.5 16 18 10 24 6" stroke="#FAF7EF" stroke-width="1.4" stroke-linecap="round"/>
+        <circle cx="23.5" cy="6.5" r="2.3" fill="#E4B24A"/>
+      </svg>
+      PhytoSense
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="problem.html">The Problem</a></li>
+      <li><a href="solution.html">Our Solution</a></li>
+      <li><a href="how-it-works.html">How It Works</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary">Get in touch</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="hero-eyebrow"><span class="dot"></span> Built for Indian smallholder fields</span>
+      <h1>Smart farming,<br><span class="accent">simplified.</span></h1>
+      <p class="hero-sub">A rugged field sensor and a voice-first handheld device that tell farmers exactly when to water, feed, and protect their crops — in their own language, without a smartphone.</p>
+      <div class="hero-actions">
+        <a href="solution.html" class="btn btn-primary">See the device</a>
+        <a href="how-it-works.html" class="btn btn-secondary">How it works</a>
+      </div>
+      <div class="hero-microcopy">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l4 4L19 6"/></svg> No smartphone needed</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l4 4L19 6"/></svg> Solar powered</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l4 4L19 6"/></svg> Speaks your language</span>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 560 480" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#F0CD7C" stop-opacity="0.9"/>
+            <stop offset="100%" stop-color="#F0CD7C" stop-opacity="0"/>
+          </radialGradient>
+          <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FDFBF5"/>
+            <stop offset="100%" stop-color="#F3EEE1"/>
+          </linearGradient>
+          <linearGradient id="hillFar" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#7FAE7A"/>
+            <stop offset="100%" stop-color="#5F9463"/>
+          </linearGradient>
+        </defs>
+
+        <rect x="0" y="0" width="560" height="480" rx="18" fill="url(#skyGrad)"/>
+        <circle cx="430" cy="95" r="110" fill="url(#sunGlow)"/>
+        <circle cx="430" cy="95" r="34" fill="#E4B24A"/>
+
+        <!-- far hill -->
+        <path d="M0 300 C 90 260, 200 280, 300 255 C 400 232, 480 255, 560 235 L560 480 L0 480 Z" fill="url(#hillFar)" opacity="0.55"/>
+        <!-- near field with furrow rows -->
+        <path d="M0 340 C 100 300, 220 330, 340 300 C 430 278, 500 300, 560 288 L560 480 L0 480 Z" fill="#8A6543" opacity="0.9"/>
+        <g stroke="#B08A5F" stroke-width="3" opacity="0.55" fill="none">
+          <path d="M-20 365 C 120 330, 260 355, 400 325 C 460 312, 520 320, 580 310"/>
+          <path d="M-20 400 C 120 368, 260 392, 400 362 C 460 350, 520 356, 580 348"/>
+          <path d="M-20 435 C 120 406, 260 428, 400 400 C 460 388, 520 392, 580 386"/>
+        </g>
+
+        <!-- sprouts -->
+        <g stroke="#2A5140" stroke-width="3" stroke-linecap="round" fill="none">
+          <path d="M120 345 q4 -16 -6 -24"/>
+          <path d="M120 345 q0 -18 10 -22"/>
+          <path d="M410 335 q4 -14 -5 -22"/>
+          <path d="M410 335 q0 -16 9 -20"/>
+        </g>
+
+        <!-- device stake -->
+        <g transform="translate(255,190)">
+          <circle cx="30" cy="95" r="70" fill="#5F9463" opacity="0.12" class="pulse-ring"/>
+          <circle cx="30" cy="95" r="48" fill="#5F9463" opacity="0.16" class="pulse-ring" style="animation-delay:.6s"/>
+          <rect x="16" y="20" width="28" height="58" rx="8" fill="#1D3C2E"/>
+          <rect x="22" y="28" width="16" height="10" rx="2" fill="#E4B24A"/>
+          <circle cx="30" cy="50" r="4" fill="#F0CD7C"/>
+          <rect x="26" y="78" width="8" height="55" fill="#8A6543"/>
+          <path d="M30 20 L30 4" stroke="#1D3C2E" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="30" cy="2" r="4" fill="#E4B24A"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<!-- Overview cards -->
+<section class="overview">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker">Start here</span>
+      <h2>Three things worth five minutes</h2>
+    </div>
+    <div class="card-row">
+      <a href="problem.html" class="overview-card reveal" style="--stagger:0">
+        <div class="icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l9 16H3L12 3z"/><path d="M12 10v4"/><circle cx="12" cy="17" r="0.6" fill="currentColor"/></svg>
+        </div>
+        <h3>The Problem</h3>
+        <p>Why millions of smallholder farmers are still guessing when to water and fertilise.</p>
+        <span class="card-link">Read the problem <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a href="solution.html" class="overview-card reveal" style="--stagger:1">
+        <div class="icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 18h6M10 21h4M12 3a6 6 0 00-4 10.4c.6.6 1 1.4 1 2.6h6c0-1.2.4-2 1-2.6A6 6 0 0012 3z"/></svg>
+        </div>
+        <h3>Our Solution</h3>
+        <p>A field sensor and a talking handheld device that turn raw soil data into simple advice.</p>
+        <span class="card-link">Meet the device <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a href="how-it-works.html" class="overview-card reveal" style="--stagger:2">
+        <div class="icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        </div>
+        <h3>How It Works</h3>
+        <p>From sensor reading to spoken advice in four simple steps, built for low-connectivity areas.</p>
+        <span class="card-link">See the flow <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="stats-band">
+  <div class="container">
+    <div class="stats-row">
+      <div class="stat-item reveal" style="--stagger:0">
+        <span class="stat-num">0</span>
+        <span class="stat-label">Smartphones required — the handheld device works on its own</span>
+      </div>
+      <div class="stat-item reveal" style="--stagger:1">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">Solar powered, so the field unit runs through every season</span>
+      </div>
+      <div class="stat-item reveal" style="--stagger:2">
+        <span class="stat-num">6+</span>
+        <span class="stat-label">Regional languages spoken back by the voice assistant</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <svg class="brand-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M6 26C6 14 14 4 26 4C26 16 18 26 6 26Z" fill="#7FAE7A"/>
+            <path d="M8.5 23.5C12.5 16 18 10 24 6" stroke="#152B22" stroke-width="1.4" stroke-linecap="round"/>
+            <circle cx="23.5" cy="6.5" r="2.3" fill="#F0CD7C"/>
+          </svg>
+          PhytoSense
+        </a>
+        <p>Affordable soil and crop intelligence for India's smallholder farmers — no smartphone required.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="problem.html">The Problem</a></li>
+          <li><a href="solution.html">Our Solution</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About &amp; Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:aryansh.abhilash@gmail.com">aryansh.abhilash@gmail.com</a></li>
+          <li><a href="tel:+971 50 705 6105">+971 50 705 6105</a></li>
+          <li>Pune, Maharashtra</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 PhytoSense Agritech Pvt. Ltd.</span>
+      <span>Built for the fields of Maharashtra, Karnataka &amp; beyond.</span>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .pulse-ring{ animation: heroPulse 3.2s ease-out infinite; transform-origin: 30px 95px; }
+  @keyframes heroPulse{
+    0%{ transform:scale(0.6); opacity:0.5; }
+    80%{ transform:scale(1.15); opacity:0; }
+    100%{ transform:scale(1.15); opacity:0; }
+  }
+  @media (prefers-reduced-motion: reduce){ .pulse-ring{ animation:none; opacity:0.14; } }
+</style>
+
+<script src="script.js"></script>
+</body>
+</html>
